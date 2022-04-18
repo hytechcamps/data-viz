@@ -4,6 +4,7 @@ In this camp, students will discover the importance of data visualization. They 
 ## Icebreaker
 
 ## Lecture
+Present the [PowerPoint Presentation](DataVisualization.pptx). There are copious notes in the slides - make sure to keep it interactive and ask the students questions throughout.
 
 ## Formative Assessment
 

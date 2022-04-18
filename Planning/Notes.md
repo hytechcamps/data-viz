@@ -14,8 +14,11 @@ In this camp, students will discover the importance of data visualization. They 
   - Color-coordination and interactivity/filtering
 - Covid - use visualizations to decide where resources should be allocated
 
+_These examples were added to the PowerPoint_
+
 ## Ideas
 - Comparing a spreadsheet to a graph
+  - _This idea was added to the PowerPoint_ 
 - Showing how the same dataset can tell different stories
   - duty to remain skeptical
   - examples of misleading visuals, axes starting at different points, purposefully leaving things out
@@ -66,3 +69,6 @@ Kahoot covering the content of the lecture
   - Colab - should be able to add stuff in the working directory, data should persist
     - comment different ways to load data, instruct students to run cell
 - Challenges with some guidance
+
+## Other Examples
+- https://visme.co/blog/best-data-visualizations-2019/
