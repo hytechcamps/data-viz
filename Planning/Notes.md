@@ -63,6 +63,14 @@ Kahoot covering the content of the lecture
     - ggplot has different themes available - change color/line width
 - Joseph and Allie can collaborate on the follow-along - Joseph can start it
 
+#### Potential Datasets
+- iris
+- mpg
+- https://www.kaggle.com/datasets/shivkumarganesh/tiktok-google-play-store-review
+- https://www.kaggle.com/datasets/alexandrparkhomenko/aliexpress-exchange-rate
+- https://www.kaggle.com/datasets/crawlfeeds/google-play-store-reviews
+- https://www.kaggle.com/code/josephmaxwell/starter-video-game-sales-fd6a70aa-3/edit
+
 ### Self-Paced Work
 - Possibly have other datasets for students to explore?
   - choose your own adventure - maybe look on kaggle
@@ -72,3 +80,4 @@ Kahoot covering the content of the lecture
 
 ## Other Examples
 - https://visme.co/blog/best-data-visualizations-2019/
+- https://www.reddit.com/r/dataisbeautiful/#sort=top;t=all
