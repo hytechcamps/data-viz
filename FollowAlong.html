@@ -160,6 +160,74 @@
                                 
                                 <h1 id="data-visualization-follow-along">Data Visualization Follow-Along</h1>
 <p>Follow these instructions to get some practice visualizing data!</p>
+<h2 id="part-one-spreadsheet-graphing">Part One: Spreadsheet Graphing</h2>
+<p>Take a look at some data in a spreadsheet, and see how it can be made into some basic charts.</p>
+<h3 id="getting-started">Getting Started</h3>
+<p>The data is available here: <a href="https://docs.google.com/spreadsheets/d/1vqKSvuF79aOkbwFT3VR4fE4HLmGmt0f_vNthz3erDFk/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1vqKSvuF79aOkbwFT3VR4fE4HLmGmt0f_vNthz3erDFk/edit?usp=sharing</a></p>
+<p><strong>In order to work with it, it will be necessary to sign into a Google account.</strong> Once signed in, select &quot;Make a copy&quot; from the &quot;File&quot; menu:</p>
+<p><img src="https://i.imgur.com/wLBUYDA.png" alt=""></p>
+<p>After that, you can edit the spreadsheet and create charts! Select the &quot;Chart&quot; option from the &quot;Insert&quot; menu to add one:</p>
+<p><img src="https://i.imgur.com/mGRxspx.png" alt=""></p>
+<h3 id="private-college-pie-chart">Private College Pie Chart</h3>
+<p>Start with a basic chart showing how many of the colleges are private, and how many are public.</p>
+<ol>
+<li>If there is a title, click it and change it to &quot;Private Colleges&quot;</li>
+<li>In the &quot;Chart editor&quot; pane that appears on the right, choose &quot;Pie chart&quot; as the Chart type</li>
+<li>For the Data range, open the selector and choose &quot;A1:S778&quot;</li>
+<li>For the Label, choose &quot;Private&quot;</li>
+<li>Check the &quot;Aggregate&quot; box</li>
+<li>Remove any Value that was added</li>
+</ol>
+<p>At the end, it should look something like this:</p>
+<p><img src="https://i.imgur.com/wlbcLbw.png" alt=""></p>
+<p>It appears that there are many more private schools than public ones!</p>
+<h3 id="room--board-vs-out-of-state">Room &amp; Board vs. Out-of-State</h3>
+<p>Next, create a scatter plot comparing Room &amp; Board cost to Out-of-State populations.</p>
+<ol>
+<li>If there are titles, change them to the following:<ul>
+<li>Main title: &quot;Room &amp; Board vs. Out-of-State&quot;</li>
+<li>X-axis label: &quot;Room &amp; Board Cost&quot;</li>
+<li>Y-axis label: &quot;Out-of-State Student Population&quot;</li>
+</ul>
+</li>
+<li>In the &quot;Chart editor&quot; pane that appears on the right, choose &quot;Scatter chart&quot; as the Chart type</li>
+<li>For the Data range, open the selector and choose &quot;A1:S778&quot;</li>
+<li>For the X-axis, select &quot;Room.Board&quot;<ul>
+<li>Make sure &quot;Aggregate&quot; is <em>not</em> checked</li>
+</ul>
+</li>
+<li>For the Series, select &quot;Outstate&quot;</li>
+<li>Make sure the &quot;Treat labels as text&quot; checkbox at the bottom is <em>not</em> checked</li>
+</ol>
+<p>At the end, it should look something like this:</p>
+<p><img src="https://i.imgur.com/48VUfdk.png" alt=""></p>
+<p>Based on this, it appears that when the room &amp; board cost is higher, there are more out-of-state students.</p>
+<h4 id="optional-bubble-chart">OPTIONAL: Bubble Chart</h4>
+<p>To continue this line of thinking, change the chart into a Bubble chart, and add &quot;Private&quot; as the color dimension. The settings should be something like this:</p>
+<p><img src="https://i.imgur.com/mQM2fvb.png" alt=""></p>
+<p>Looks like private schools have both higher room &amp; board costs <em>and</em> higher out-of-state populations!</p>
+<h3 id="applications-acceptance-and-enrollment">Applications, Acceptance, and Enrollment</h3>
+<p>For the next chart, find out how many students applied, were accepted, and enrolled at both private and public colleges.</p>
+<ol>
+<li>If there are titles, change them to properly match the data columns used</li>
+<li>In the &quot;Chart editor&quot; pane, choose &quot;Column chart&quot; as the Chart type</li>
+<li>For the Data range, open the selector and choose &quot;A1:S778&quot;</li>
+<li>For the X-axis, select &quot;Private&quot;<ul>
+<li>Make sure the &quot;Aggregate&quot; checkbox is checked</li>
+</ul>
+</li>
+<li>For the Series, add each of the following:<ul>
+<li>Apps</li>
+<li>Accept</li>
+<li>Enroll</li>
+</ul>
+</li>
+<li>Set the Series Aggregate Type to &quot;Sum&quot;</li>
+</ol>
+<p>It should look something like this:</p>
+<p><img src="https://i.imgur.com/AyGjUtI.png" alt=""></p>
+<p>Even though there are many more private colleges, more students are enrolled at public colleges overall!</p>
+<h2 id="part-two-custom-programming-with-python-and-ggplot">Part Two: Custom Programming with Python and ggplot</h2>
 
                                 
                                 </section>
@@ -199,7 +267,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Follow-Along","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"StudentDesc.md","ref":"StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FollowAlong.md","mtime":"2022-04-19T17:09:22.027Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-19T17:10:04.615Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Follow-Along","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"StudentDesc.md","ref":"StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FollowAlong.md","mtime":"2022-04-21T12:17:58.470Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-21T12:18:32.845Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
