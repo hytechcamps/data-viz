@@ -179,12 +179,8 @@
 <p>Take a look at some data in a spreadsheet, and see how it can be made into some basic charts.</p>
 <h3 id="getting-started">Getting Started</h3>
 <p>The data is available here: <a href="https://docs.google.com/spreadsheets/d/1vqKSvuF79aOkbwFT3VR4fE4HLmGmt0f_vNthz3erDFk/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1vqKSvuF79aOkbwFT3VR4fE4HLmGmt0f_vNthz3erDFk/edit?usp=sharing</a></p>
-<p><strong>In order to work with it, it will be necessary to sign into a Google account.</strong> Once signed in, select &quot;Make a copy&quot; from the &quot;File&quot; menu:</p>
-<p><img src="https://i.imgur.com/wLBUYDA.png" alt=""></p>
-<p>After that, you can edit the spreadsheet and create charts! Select the &quot;Chart&quot; option from the &quot;Insert&quot; menu to add one:</p>
-<p><img src="https://i.imgur.com/mGRxspx.png" alt=""></p>
 <h3 id="column-meanings">Column Meanings</h3>
-<p>Here&apos;s a rundown of what each column actually means:</p>
+<p>Take a look at the data. Here&apos;s a rundown of what each column actually means:</p>
 <ul>
 <li><code>Private</code>: Public/private indicator</li>
 <li><code>Apps</code>: Number of applications received</li>
@@ -205,6 +201,11 @@
 <li><code>Expend</code>: Instructional expenditure per student</li>
 <li><code>Grad.Rate</code>: Graduation rate</li>
 </ul>
+<h3 id="working-with-the-data">Working with the Data</h3>
+<p><strong>In order to work with it, it will be necessary to sign into a Google account.</strong> Once signed in, select &quot;Make a copy&quot; from the &quot;File&quot; menu:</p>
+<p><img src="https://i.imgur.com/wLBUYDA.png" alt=""></p>
+<p>After that, you can edit the spreadsheet and create charts! Select the &quot;Chart&quot; option from the &quot;Insert&quot; menu to add one:</p>
+<p><img src="https://i.imgur.com/mGRxspx.png" alt=""></p>
 <h3 id="private-college-pie-chart">Private College Pie Chart</h3>
 <p>Start with a basic chart showing how many of the colleges are private, and how many are public.</p>
 <ol>
@@ -214,6 +215,7 @@
 <li>For the Label, choose &quot;Private&quot;</li>
 <li>Check the &quot;Aggregate&quot; box</li>
 <li>Remove any Value that was added</li>
+<li>Make sure to toggle &quot;Use row 1 as headers&quot;</li>
 </ol>
 <p>At the end, it should look something like this:</p>
 <p><img src="https://i.imgur.com/wlbcLbw.png" alt=""></p>
@@ -223,17 +225,18 @@
 <ol>
 <li>If there are titles, change them to the following:<ul>
 <li>Main title: &quot;Room &amp; Board vs. Out-of-State&quot;</li>
-<li>X-axis label: &quot;Room &amp; Board Cost&quot;</li>
+<li>X-axis (horizontal axis) label: &quot;Room &amp; Board Cost&quot;</li>
 <li>Y-axis label: &quot;Out-of-State Student Tuition&quot;</li>
 </ul>
 </li>
 <li>In the &quot;Chart editor&quot; pane that appears on the right, choose &quot;Scatter chart&quot; as the Chart type</li>
 <li>For the Data range, open the selector and choose &quot;A1:S778&quot;</li>
-<li>For the X-axis, select &quot;Room.Board&quot;<ul>
+<li>For the X-axis (horizontal axis), select &quot;Room.Board&quot;<ul>
 <li>Make sure &quot;Aggregate&quot; is <em>not</em> checked</li>
 </ul>
 </li>
 <li>For the Series, select &quot;Outstate&quot;</li>
+<li>Make sure to toggle &quot;Use row 1 as headers&quot;</li>
 <li>Make sure the &quot;Treat labels as text&quot; checkbox at the bottom is <em>not</em> checked</li>
 </ol>
 <p>At the end, it should look something like this:</p>
@@ -249,7 +252,7 @@
 <li>If there are titles, change them to properly match the data columns used</li>
 <li>In the &quot;Chart editor&quot; pane, choose &quot;Column chart&quot; as the Chart type</li>
 <li>For the Data range, open the selector and choose &quot;A1:S778&quot;</li>
-<li>For the X-axis, select &quot;Private&quot;<ul>
+<li>For the X-axis (horizontal axis), select &quot;Private&quot;<ul>
 <li>Make sure the &quot;Aggregate&quot; checkbox is checked</li>
 </ul>
 </li>
@@ -260,6 +263,7 @@
 </ul>
 </li>
 <li>Set the Series Aggregate Type to &quot;Sum&quot;</li>
+<li>Make sure to toggle &quot;Use row 1 as headers&quot;</li>
 </ol>
 <p>It should look something like this:</p>
 <p><img src="https://i.imgur.com/AyGjUtI.png" alt=""></p>
@@ -311,7 +315,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Follow-Along Activity","level":"1.2","depth":1,"next":{"title":"Self-Paced Work","level":"1.3","depth":1,"path":"SelfPacedWork.md","ref":"SelfPacedWork.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"StudentDesc.md","ref":"StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FollowAlong.md","mtime":"2022-04-25T18:11:38.152Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-25T18:12:19.803Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Follow-Along Activity","level":"1.2","depth":1,"next":{"title":"Self-Paced Work","level":"1.3","depth":1,"path":"SelfPacedWork.md","ref":"SelfPacedWork.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"StudentDesc.md","ref":"StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FollowAlong.md","mtime":"2022-04-25T18:25:19.822Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-25T18:25:51.083Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
