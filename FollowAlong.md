@@ -101,7 +101,7 @@ It should look something like this:
 Even though there are many more private colleges, more students are enrolled at public colleges overall!
 
 ## Part Two: Custom Programming with Python and `ggplot`
-This part of the follow-along activity will take place in Google Colab. Make a copy of [this notebook](https://colab.research.google.com/drive/1bo9vubNJkGDzvNZx9rRP1XII_jz5oF0f#scrollTo=4iFzpN7VGXyc) to begin. All of the instructions are there, along with the code!
+This part of the follow-along activity will take place in Google Colab. Make a copy of [this notebook](https://colab.research.google.com/drive/1bo9vubNJkGDzvNZx9rRP1XII_jz5oF0f) to begin. All of the instructions are there, along with the code!
 
 ## Beyond
 After part two, head back to the [main page](StudentDesc.md) to see what else there is to explore!
