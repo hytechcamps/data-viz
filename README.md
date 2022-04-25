@@ -22,8 +22,20 @@ Credentials for any student without a Google account:
 
 >_Note: Do not make this public - it should only be reserved for students who do not have access to an account._
 
-## Self-Paced Work
+## Self-Paced Work - Further Exploration
+There are a few options for individual work.
 
-## Sharing Work
+- Students can continue to work on the college dataset, either in Google Sheets or Google Colab
+- Students can look at the [Self-Paced Work page](SelfPacedWork.md) to see some other data sets
+- Students can view the "Additional Explorations" links on the [main page](StudentDesc.md)
 
 ## Schedule
+
+| Activity | Time |
+|-|-|
+| Icebreaker | 10m |
+| Lecture | 30m |
+| Formative Assessment | 10m |
+| Break | 10m |
+| Follow-Along | 40m |
+| Self-Paced Work | 20m |
