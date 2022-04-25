@@ -1,0 +1,2 @@
+# Data Visualization - Self-Paced Work
+Follow these instructions to practice your data visualization skills! You are also welcome to explore more on your own, and see what you can create. We recommend continuing in a Google Sheet or a Google Colab notebook.
