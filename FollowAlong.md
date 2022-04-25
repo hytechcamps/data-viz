@@ -7,16 +7,8 @@ Take a look at some data in a spreadsheet, and see how it can be made into some 
 ### Getting Started
 The data is available here: https://docs.google.com/spreadsheets/d/1vqKSvuF79aOkbwFT3VR4fE4HLmGmt0f_vNthz3erDFk/edit?usp=sharing
 
-**In order to work with it, it will be necessary to sign into a Google account.** Once signed in, select "Make a copy" from the "File" menu:
-
-![](https://i.imgur.com/wLBUYDA.png)
-
-After that, you can edit the spreadsheet and create charts! Select the "Chart" option from the "Insert" menu to add one:
-
-![](https://i.imgur.com/mGRxspx.png)
-
 ### Column Meanings
-Here's a rundown of what each column actually means:
+Take a look at the data. Here's a rundown of what each column actually means:
 
 - `Private`: Public/private indicator
 - `Apps`: Number of applications received
@@ -37,6 +29,15 @@ Here's a rundown of what each column actually means:
 - `Expend`: Instructional expenditure per student
 - `Grad.Rate`: Graduation rate
 
+### Working with the Data
+**In order to work with it, it will be necessary to sign into a Google account.** Once signed in, select "Make a copy" from the "File" menu:
+
+![](https://i.imgur.com/wLBUYDA.png)
+
+After that, you can edit the spreadsheet and create charts! Select the "Chart" option from the "Insert" menu to add one:
+
+![](https://i.imgur.com/mGRxspx.png)
+
 ### Private College Pie Chart
 Start with a basic chart showing how many of the colleges are private, and how many are public.
 
@@ -46,6 +47,7 @@ Start with a basic chart showing how many of the colleges are private, and how m
 1. For the Label, choose "Private"
 1. Check the "Aggregate" box
 1. Remove any Value that was added
+1. Make sure to toggle "Use row 1 as headers"
 
 At the end, it should look something like this:
 
@@ -58,13 +60,14 @@ Next, create a scatter plot comparing Room & Board cost to Out-of-State tuition.
 
 1. If there are titles, change them to the following:
     - Main title: "Room & Board vs. Out-of-State"
-    - X-axis label: "Room & Board Cost"
+    - X-axis (horizontal axis) label: "Room & Board Cost"
     - Y-axis label: "Out-of-State Student Tuition"
 1. In the "Chart editor" pane that appears on the right, choose "Scatter chart" as the Chart type
 1. For the Data range, open the selector and choose "A1:S778"
-1. For the X-axis, select "Room.Board"
+1. For the X-axis (horizontal axis), select "Room.Board"
     - Make sure "Aggregate" is _not_ checked
 1. For the Series, select "Outstate"
+1. Make sure to toggle "Use row 1 as headers"
 1. Make sure the "Treat labels as text" checkbox at the bottom is _not_ checked
 
 At the end, it should look something like this:
@@ -86,13 +89,14 @@ For the next chart, find out how many students applied, were accepted, and enrol
 1. If there are titles, change them to properly match the data columns used
 1. In the "Chart editor" pane, choose "Column chart" as the Chart type
 1. For the Data range, open the selector and choose "A1:S778"
-1. For the X-axis, select "Private"
+1. For the X-axis (horizontal axis), select "Private"
     - Make sure the "Aggregate" checkbox is checked
 1. For the Series, add each of the following:
     - Apps
     - Accept
     - Enroll
 1. Set the Series Aggregate Type to "Sum"
+1. Make sure to toggle "Use row 1 as headers"
 
 It should look something like this:
 
