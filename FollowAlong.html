@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Follow-Along · GitBook</title>
+        <title>Follow-Along Activity · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,6 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="SelfPacedWork.html" />
+    
     
     <link rel="prev" href="./" />
     
@@ -105,7 +107,20 @@
                 <a href="FollowAlong.html">
             
                     
-                    Follow-Along
+                    Follow-Along Activity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="SelfPacedWork.html">
+            
+                <a href="SelfPacedWork.html">
+            
+                    
+                    Self-Paced Work
             
                 </a>
             
@@ -143,7 +158,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Follow-Along</a>
+        <a href="." >Follow-Along Activity</a>
     </h1>
 </div>
 
@@ -168,6 +183,28 @@
 <p><img src="https://i.imgur.com/wLBUYDA.png" alt=""></p>
 <p>After that, you can edit the spreadsheet and create charts! Select the &quot;Chart&quot; option from the &quot;Insert&quot; menu to add one:</p>
 <p><img src="https://i.imgur.com/mGRxspx.png" alt=""></p>
+<h3 id="column-meanings">Column Meanings</h3>
+<p>Here&apos;s a rundown of what each column actually means:</p>
+<ul>
+<li><code>Private</code>: Public/private indicator</li>
+<li><code>Apps</code>: Number of applications received</li>
+<li><code>Accept</code>: Number of applicants accepted</li>
+<li><code>Enroll</code>: Number of new students enrolled</li>
+<li><code>Top10perc</code>: New students from top 10% of high school class</li>
+<li><code>Top25perc</code>: New students from top 25% of high school class</li>
+<li><code>F.Undergrad</code>: Number of full-time undergraduates</li>
+<li><code>P.Undergrad</code>: Number of part-time undergraduates</li>
+<li><code>Outstate</code>: Out-of-state tuition</li>
+<li><code>Room.Board</code>: Room and board costs</li>
+<li><code>Books</code>: Estimated book costs</li>
+<li><code>Personal</code>: Estimated personal spending</li>
+<li><code>PhD</code>: Percent of faculty with Ph.D.&#x2019;s</li>
+<li><code>Terminal</code>: Percent of faculty with terminal degree</li>
+<li><code>S.F.Ratio</code>: Student/faculty ratio</li>
+<li><code>perc.alumni</code>: Percent of alumni who donate</li>
+<li><code>Expend</code>: Instructional expenditure per student</li>
+<li><code>Grad.Rate</code>: Graduation rate</li>
+</ul>
 <h3 id="private-college-pie-chart">Private College Pie Chart</h3>
 <p>Start with a basic chart showing how many of the colleges are private, and how many are public.</p>
 <ol>
@@ -181,13 +218,13 @@
 <p>At the end, it should look something like this:</p>
 <p><img src="https://i.imgur.com/wlbcLbw.png" alt=""></p>
 <p>It appears that there are many more private schools than public ones!</p>
-<h3 id="room--board-vs-out-of-state">Room &amp; Board vs. Out-of-State</h3>
-<p>Next, create a scatter plot comparing Room &amp; Board cost to Out-of-State populations.</p>
+<h3 id="room--board-vs-out-of-state-tuition">Room &amp; Board vs. Out-of-State Tuition</h3>
+<p>Next, create a scatter plot comparing Room &amp; Board cost to Out-of-State tuition.</p>
 <ol>
 <li>If there are titles, change them to the following:<ul>
 <li>Main title: &quot;Room &amp; Board vs. Out-of-State&quot;</li>
 <li>X-axis label: &quot;Room &amp; Board Cost&quot;</li>
-<li>Y-axis label: &quot;Out-of-State Student Population&quot;</li>
+<li>Y-axis label: &quot;Out-of-State Student Tuition&quot;</li>
 </ul>
 </li>
 <li>In the &quot;Chart editor&quot; pane that appears on the right, choose &quot;Scatter chart&quot; as the Chart type</li>
@@ -201,11 +238,11 @@
 </ol>
 <p>At the end, it should look something like this:</p>
 <p><img src="https://i.imgur.com/48VUfdk.png" alt=""></p>
-<p>Based on this, it appears that when the room &amp; board cost is higher, there are more out-of-state students.</p>
+<p>Based on this, it appears that when the room &amp; board cost is higher, there is also a higher out-of-state tuition.</p>
 <h4 id="optional-bubble-chart">OPTIONAL: Bubble Chart</h4>
 <p>To continue this line of thinking, change the chart into a Bubble chart, and add &quot;Private&quot; as the color dimension. The settings should be something like this:</p>
 <p><img src="https://i.imgur.com/mQM2fvb.png" alt=""></p>
-<p>Looks like private schools have both higher room &amp; board costs <em>and</em> higher out-of-state populations!</p>
+<p>Looks like private schools have both higher room &amp; board costs <em>and</em> higher out-of-state tuition!</p>
 <h3 id="applications-acceptance-and-enrollment">Applications, Acceptance, and Enrollment</h3>
 <p>For the next chart, find out how many students applied, were accepted, and enrolled at both private and public colleges.</p>
 <ol>
@@ -227,7 +264,10 @@
 <p>It should look something like this:</p>
 <p><img src="https://i.imgur.com/AyGjUtI.png" alt=""></p>
 <p>Even though there are many more private colleges, more students are enrolled at public colleges overall!</p>
-<h2 id="part-two-custom-programming-with-python-and-ggplot">Part Two: Custom Programming with Python and ggplot</h2>
+<h2 id="part-two-custom-programming-with-python-and-ggplot">Part Two: Custom Programming with Python and <code>ggplot</code></h2>
+<p>This part of the follow-along activity will take place in Google Colab. Make a copy of <a href="https://colab.research.google.com/drive/1bo9vubNJkGDzvNZx9rRP1XII_jz5oF0f#scrollTo=4iFzpN7VGXyc" target="_blank">this notebook</a> to begin. All of the instructions are there, along with the code!</p>
+<h2 id="beyond">Beyond</h2>
+<p>After part two, head back to the <a href="./">main page</a> to see what else there is to explore!</p>
 
                                 
                                 </section>
@@ -255,10 +295,14 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="SelfPacedWork.html" class="navigation navigation-next " aria-label="Next page: Self-Paced Work">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -267,7 +311,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Follow-Along","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"StudentDesc.md","ref":"StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FollowAlong.md","mtime":"2022-04-21T12:47:06.591Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-21T12:47:45.422Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Follow-Along Activity","level":"1.2","depth":1,"next":{"title":"Self-Paced Work","level":"1.3","depth":1,"path":"SelfPacedWork.md","ref":"SelfPacedWork.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"StudentDesc.md","ref":"StudentDesc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"FollowAlong.md","mtime":"2022-04-25T16:51:05.315Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-25T16:51:36.385Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -2,12 +2,21 @@
 Welcome to the Data Visualization Hy-Tech Camp!
 
 ## Icebreaker
-Complete this form to begin: https://forms.gle/fFeYSmrVp61zgYiu6
+Complete this form to participate in the icebreaker: https://forms.gle/fFeYSmrVp61zgYiu6
 
 After submitting the form, click on the "See previous responses" link to see visualizations for the cumulation of all data!
 
 ## Data Visualization PowerPoint Presentation
 <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://hytechcamps.github.io/data-viz/DataVisualization.pptx' width='100%' height='450px' frameborder='0'></iframe>
 
-## Follow-Along
-Complete the [follow-along activity](FollowAlong.md).
+## Follow-Along Activity - College Data
+Complete the [follow-along activity](FollowAlong.md). It uses a college-based dataset to show how to create visualizations in Google Sheets _and_ `ggplot`.
+
+## Self-Paced Work - New Datasets
+Follow [these instructions](SelfPacedWork.md) to learn more about what is possible with data and data visualization, and practice your skills.
+
+## Additional Explorations
+- Take a look at some [more cool visualizations](https://visme.co/blog/best-data-visualizations-2019/)
+- Read through some of the top posts of all time on the [/r/dataisbeautiful subreddit](https://www.reddit.com/r/dataisbeautiful/#sort=top;t=all)
+- Learn more about [Python and `pandas`](https://realpython.com/pandas-python-explore-dataset/) by exploring an NBA dataset
+- Play with [an interactive global data visualizer tool](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) and see what cool patterns you can find
