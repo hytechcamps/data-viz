@@ -1,6 +1,8 @@
 # Data Visualization - Self-Paced Work
 Follow these instructions to practice your data visualization skills! You are also welcome to explore more on your own, and see what you can create. We recommend continuing in a Google Sheet or a Google Colab notebook. Explore one of the datasets below!
 
+>Note: If desired, you can also feel free to check out the "Additional Explorations" at the bottom of the [homepage](StudentDesc.md).
+
 ## Candy Power Rankings
 This dataset compares different types of candy to each other.
 
