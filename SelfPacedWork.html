@@ -174,7 +174,140 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="data-visualization---self-paced-work">Data Visualization - Self-Paced Work</h1>
-<p>Follow these instructions to practice your data visualization skills! You are also welcome to explore more on your own, and see what you can create. We recommend continuing in a Google Sheet or a Google Colab notebook.</p>
+<p>Follow these instructions to practice your data visualization skills! You are also welcome to explore more on your own, and see what you can create. We recommend continuing in a Google Sheet or a Google Colab notebook. Explore one of the datasets below!</p>
+<h2 id="candy-power-rankings">Candy Power Rankings</h2>
+<p>This dataset compares different types of candy to each other.</p>
+<p><img src="images/candy.jpg" alt=""></p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1fBZ5RpkGduRXFAW4pgFY0MqglLmtS1vEMT9SFbLujT4/edit?usp=sharing" target="_blank">Google Sheet</a></li>
+<li>Colab Notebook: </li>
+</ul>
+<h3 id="data-dictionary">Data Dictionary</h3>
+<ul>
+<li><code>chocolate</code>: Does it contain chocolate?</li>
+<li><code>fruity</code>: Is it fruit flavored?</li>
+<li><code>caramel</code>: Is there caramel in the candy?</li>
+<li><code>peanutalmondy</code>: Does it contain peanuts, peanut butter or almonds?</li>
+<li><code>nougat</code>: Does it contain nougat?</li>
+<li><code>crispedricewafer</code>: Does it contain crisped rice, wafers, or a cookie component?</li>
+<li><code>hard</code>: Is it a hard candy?</li>
+<li><code>bar</code>: Is it a candy bar?</li>
+<li><code>pluribus</code>: Is it one of many candies in a bag or box?</li>
+<li><code>sugarpercent</code>: The percentile of sugar it falls under within the data set.</li>
+<li><code>pricepercent</code>: The unit price percentile compared to the rest of the set.</li>
+<li><code>winpercent</code>: The overall win percentage according to 269,000 matchups.</li>
+</ul>
+<h3 id="sources">Sources</h3>
+<ul>
+<li><a href="https://fivethirtyeight.com/videos/the-ultimate-halloween-candy-power-ranking/" target="_blank">FiveThirtyEight Article</a></li>
+<li><a href="https://www.kaggle.com/datasets/fivethirtyeight/the-ultimate-halloween-candy-power-ranking" target="_blank">Kaggle Page</a></li>
+<li><a href="https://github.com/hytechcamps/data-viz/blob/master/Datasets/candy.csv" target="_blank">CSV Data</a></li>
+</ul>
+<h2 id="video-game-systems">Video Game Systems</h2>
+<p>This dataset has average IGN Review scores by platform and genre.</p>
+<p><img src="images/videogames.jpg" alt=""></p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1_g-C9wXBuzbC0MTUT518OYY7UsH6P8o7fM-7tXPaIDU/edit?usp=sharing" target="_blank">Google Sheet</a></li>
+<li>Colab Notebook:</li>
+</ul>
+<h3 id="data-dictionary">Data Dictionary</h3>
+<ul>
+<li><code>Platform</code>: The video game console for the games</li>
+<li>Genre (<code>Adventure</code>, <code>Puzzle</code>, <code>Racing</code>, etc): The genre for the games</li>
+</ul>
+<p>For example, on the <strong>Nintendo DS</strong> row, the <strong>Fighting</strong> column has a value of <code>6.32</code>. This means that of all the fighting games for the Nintendo DS, the average IGN rating (out of 10) is 6.32!</p>
+<h3 id="sources">Sources</h3>
+<ul>
+<li><a href="https://www.kaggle.com/code/gauravduttakiit/exercise-bar-charts-and-heatmaps/notebook" target="_blank">Kaggle Walkthrough</a></li>
+<li><a href="https://github.com/hytechcamps/data-viz/blob/master/Datasets/ign_scores.csv" target="_blank">CSV Data</a></li>
+</ul>
+<h2 id="nba-game-data">NBA Game Data</h2>
+<p>This dataset contains records for NBA games from 1946-2015. It includes a lot of <a href="https://en.wikipedia.org/wiki/Elo_rating_system" target="_blank">Elo rating</a> data.</p>
+<p><img src="images/nba.jpg" alt=""></p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1IjbIMWXAU89MbFRWkxIuh0Sqzuku_anGpWWB5zdhQfI/edit?usp=sharing" target="_blank">Google Sheet</a></li>
+<li>Colab Notebook:</li>
+</ul>
+<h3 id="data-dictionary">Data Dictionary</h3>
+<ul>
+<li><code>gameorder</code>: Play order of game in NBA history</li>
+<li><code>game_id</code>: Unique ID for each game</li>
+<li><code>lg_id</code>: Which league the game was played in</li>
+<li><code>_iscopy</code>: Each row of data is tied to a single team for a single game, so <code>_iscopy</code> flags if this game_id has already occurred for the opposing team in the same matchup</li>
+<li><code>year_id</code>: Season id, named based on year in which the season ended</li>
+<li><code>date_game</code>: Game date</li>
+<li><code>is_playoffs</code>: Flag for playoff games</li>
+<li><code>team_id</code>: Three letter code for team name, from Basketball Reference</li>
+<li><code>fran_id</code>: Franchise id. Multiple <code>team_id</code>s can fall under the same <code>fran_id</code> due to name changes or moves. Interactive is grouped by <code>fran_id</code>.</li>
+<li><code>pts</code>: Points scored by team</li>
+<li><code>elo_i</code>: Team elo entering the game</li>
+<li><code>elo_n</code>: Team elo following the game</li>
+<li><code>win_equiv</code>: Equivalent number of wins in a 82-game season for a team of <code>elo_n</code> quality</li>
+<li><code>opp_id</code>: Team id of opponent</li>
+<li><code>opp_fran</code>: Franchise id of opponent</li>
+<li><code>opp_pts</code>: Points scored by opponent</li>
+<li><code>opp_elo_i</code>: Opponent elo entering the game</li>
+<li><code>opp_elo_n</code>: Opponent elo following the game</li>
+<li><code>game_location</code>: Home (H), away (A), or neutral (N)</li>
+<li><code>game_result</code>: Win or loss for team in the <code>team_id</code> column</li>
+<li><code>forecast</code>: Elo-based chances of winning for the team in the <code>team_id</code> column, based on elo ratings and game location</li>
+<li><code>notes</code>: Additional information</li>
+</ul>
+<h3 id="sources">Sources</h3>
+<ul>
+<li><a href="https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-nba-elo-dataset" target="_blank">Kaggle Page</a></li>
+<li><a href="https://github.com/hytechcamps/data-viz/blob/master/Datasets/nba.csv" target="_blank">CSV Data</a></li>
+</ul>
+<h2 id="nfl-players-data">NFL Players Data</h2>
+<p>This dataset contains information about current NFL players.</p>
+<p><img src="images/nfl.png" alt=""></p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1_2gxbeokq0TPxm3UI6eL1lvZ03CL7pHmW4ZxNQ226xc/edit?usp=sharing" target="_blank">Google Sheet</a></li>
+<li>Colab Notebook:</li>
+</ul>
+<h3 id="data-dictionary">Data Dictionary</h3>
+<ul>
+<li><code>nflId</code>: Player identification number, unique across players (numeric)</li>
+<li><code>height</code>: Player height (numeric)</li>
+<li><code>weight</code>: Player weight (numeric)</li>
+<li><code>birthDate</code>: Date of birth (M/D/YYYY)</li>
+<li><code>collegeName</code>: Player college (text)</li>
+<li><code>position</code>: Player position (text)</li>
+<li><code>displayName</code>: Player name (text)</li>
+</ul>
+<h3 id="sources">Sources</h3>
+<ul>
+<li><a href="https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset?select=players.csv" target="_blank">Kaggle Page</a></li>
+<li><a href="https://github.com/hytechcamps/data-viz/blob/master/Datasets/nfl_players.csv" target="_blank">CSV Data</a></li>
+</ul>
+<h2 id="titanic-passenger-data">Titanic Passenger Data</h2>
+<p>This dataset contains information about passengers on the Titanic.</p>
+<p><img src="images/titanic.jpg" alt=""></p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1TcYozHHXhVE1esummV95vAYXKxkXbsoQLyf31TUBlO0/edit?usp=sharing" target="_blank">Google Sheet</a></li>
+<li>Colab Notebook:</li>
+</ul>
+<h3 id="data-dictionary">Data Dictionary</h3>
+<ul>
+<li><code>Survived</code>: Whether the passenger survived or not (<code>1</code>: they did survive, <code>0</code>: they did not survive)</li>
+<li><code>Pclass</code>: Passenger ticket class (first, second, or third)</li>
+<li><code>Name</code>: Passenger&apos;s name</li>
+<li><code>Sex</code>: Passenger&apos;s sex</li>
+<li><code>Age</code>: Passenger&apos;s age</li>
+<li><code>Siblings/Spouses Aboard</code>: Number of siblings/spouses also aboard the Titanic</li>
+<li><code>Parents/Children Aboard</code>: Number of parents/children also aboard the Titanic</li>
+<li><code>Fare</code>: Amount paid for ticket (in pounds)</li>
+</ul>
+<h3 id="sources">Sources</h3>
+<ul>
+<li><a href="https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html" target="_blank">Stanford CS109 Problem</a></li>
+<li><a href="https://github.com/hytechcamps/data-viz/blob/master/Datasets/titanic.csv" target="_blank">CSV Data</a></li>
+</ul>
 
                                 
                                 </section>
@@ -214,7 +347,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Self-Paced Work","level":"1.3","depth":1,"previous":{"title":"Follow-Along Activity","level":"1.2","depth":1,"path":"FollowAlong.md","ref":"FollowAlong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"SelfPacedWork.md","mtime":"2022-04-26T15:06:12.450Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-26T15:06:42.414Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Self-Paced Work","level":"1.3","depth":1,"previous":{"title":"Follow-Along Activity","level":"1.2","depth":1,"path":"FollowAlong.md","ref":"FollowAlong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"StudentDesc.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"SelfPacedWork.md","mtime":"2022-04-26T15:22:07.094Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-26T15:22:37.064Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
