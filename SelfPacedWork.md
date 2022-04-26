@@ -8,7 +8,7 @@ This dataset compares different types of candy to each other.
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1fBZ5RpkGduRXFAW4pgFY0MqglLmtS1vEMT9SFbLujT4/edit?usp=sharing)
-- Colab Notebook: 
+- [Colab Notebook](https://colab.research.google.com/drive/16fs6yWZd_CsjM8vZgqkrk1l4ysNdsNDk?usp=sharing)
 
 ### Data Dictionary
 - `chocolate`: Does it contain chocolate?
@@ -36,7 +36,7 @@ This dataset has average IGN Review scores by platform and genre.
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1_g-C9wXBuzbC0MTUT518OYY7UsH6P8o7fM-7tXPaIDU/edit?usp=sharing)
-- Colab Notebook:
+- [Colab Notebook](https://colab.research.google.com/drive/16LzE7Wron-y-Sr8HV8RsKKJCgwPGVHX7?usp=sharing)
 
 ### Data Dictionary
 - `Platform`: The video game console for the games
@@ -55,7 +55,7 @@ This dataset contains records for NBA games from 1946-2015. It includes a lot of
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1IjbIMWXAU89MbFRWkxIuh0Sqzuku_anGpWWB5zdhQfI/edit?usp=sharing)
-- Colab Notebook:
+- [Colab Notebook](https://colab.research.google.com/drive/1O737-IGawd_r8DL_saakZbZf6hC2VI3U?usp=sharing)
 
 ### Data Dictionary
 - `gameorder`: Play order of game in NBA history
@@ -92,7 +92,7 @@ This dataset contains information about current NFL players.
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1_2gxbeokq0TPxm3UI6eL1lvZ03CL7pHmW4ZxNQ226xc/edit?usp=sharing)
-- Colab Notebook:
+- [Colab Notebook](https://colab.research.google.com/drive/1Uy6ebo-V9WxxXwTBdVR-2zhbeOaXu1FW?usp=sharing)
 
 ### Data Dictionary
 - `nflId`: Player identification number, unique across players (numeric)
@@ -114,10 +114,10 @@ This dataset contains information about passengers on the Titanic.
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1TcYozHHXhVE1esummV95vAYXKxkXbsoQLyf31TUBlO0/edit?usp=sharing)
-- Colab Notebook:
+- [Colab Notebook](https://colab.research.google.com/drive/1z8Ojk-woqhhMQXs49DPpHKcRqAKovEuI?usp=sharing)
 
 ### Data Dictionary
-- `Survived`: Whether the passenger survived or not (`1`: they did survive, `0`: they did not survive)
+- `Survived`: Whether the passenger survived or not
 - `Pclass`: Passenger ticket class (first, second, or third)
 - `Name`: Passenger's name
 - `Sex`: Passenger's sex
