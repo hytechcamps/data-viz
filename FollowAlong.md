@@ -32,11 +32,11 @@ Take a look at the data. Here's a rundown of what each column actually means:
 ### Working with the Data
 **In order to work with it, it will be necessary to sign into a Google account.** Once signed in, select "Make a copy" from the "File" menu:
 
-![](https://i.imgur.com/wLBUYDA.png)
+![](Images/makeacopy.png)
 
 After that, you can edit the spreadsheet and create charts! Select the "Chart" option from the "Insert" menu to add one:
 
-![](https://i.imgur.com/mGRxspx.png)
+![](Images/selectchart.png)
 
 ### Private College Pie Chart
 Start with a basic chart showing how many of the colleges are private, and how many are public.
@@ -51,7 +51,7 @@ Start with a basic chart showing how many of the colleges are private, and how m
 
 At the end, it should look something like this:
 
-![](https://i.imgur.com/wlbcLbw.png)
+![](Images/privatecollegepie.png)
 
 It appears that there are many more private schools than public ones!
 
@@ -72,14 +72,14 @@ Next, create a scatter plot comparing Room & Board cost to Out-of-State tuition.
 
 At the end, it should look something like this:
 
-![](https://i.imgur.com/48VUfdk.png)
+![](Images/roomvoutstate.png)
 
 Based on this, it appears that when the room & board cost is higher, there is also a higher out-of-state tuition.
 
 #### OPTIONAL: Bubble Chart
 To continue this line of thinking, change the chart into a Bubble chart, and add "Private" as the color dimension. The settings should be something like this:
 
-![](https://i.imgur.com/mQM2fvb.png)
+![](Images/roomvoutstatebubble.png)
 
 Looks like private schools have both higher room & board costs _and_ higher out-of-state tuition!
 
@@ -100,7 +100,7 @@ For the next chart, find out how many students applied, were accepted, and enrol
 
 It should look something like this:
 
-![](https://i.imgur.com/AyGjUtI.png)
+![](Images/pubprivenrollment.png)
 
 Even though there are many more private colleges, more students are enrolled at public colleges overall!
 
