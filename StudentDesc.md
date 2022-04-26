@@ -17,6 +17,6 @@ Follow [these instructions](SelfPacedWork.md) to learn more about what is possib
 
 ## Additional Explorations
 - Take a look at some [more cool visualizations](https://visme.co/blog/best-data-visualizations-2019/)
-- Read through some of the top posts of all time on the [/r/dataisbeautiful subreddit](https://www.reddit.com/r/dataisbeautiful/top/?t=all)
+- Read through some of the top posts of all time on the [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/top/?t=all) subreddit
 - Learn more about [Python and `pandas`](https://realpython.com/pandas-python-explore-dataset/) by exploring an NBA dataset
 - Play with [an interactive global data visualizer tool](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) and see what cool patterns you can find
