@@ -4,7 +4,7 @@ Follow these instructions to practice your data visualization skills! You are al
 ## Candy Power Rankings
 This dataset compares different types of candy to each other.
 
-![](images/candy.jpg)
+![](Images/candy.jpg)
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1fBZ5RpkGduRXFAW4pgFY0MqglLmtS1vEMT9SFbLujT4/edit?usp=sharing)
@@ -32,7 +32,7 @@ This dataset compares different types of candy to each other.
 ## Video Game Systems
 This dataset has average IGN Review scores by platform and genre.
 
-![](images/videogames.jpg)
+![](Images/videogames.jpg)
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1_g-C9wXBuzbC0MTUT518OYY7UsH6P8o7fM-7tXPaIDU/edit?usp=sharing)
@@ -51,7 +51,7 @@ For example, on the **Nintendo DS** row, the **Fighting** column has a value of 
 ## NBA Game Data
 This dataset contains records for NBA games from 1946-2015. It includes a lot of [Elo rating](https://en.wikipedia.org/wiki/Elo_rating_system) data.
 
-![](images/nba.jpg)
+![](Images/nba.jpg)
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1IjbIMWXAU89MbFRWkxIuh0Sqzuku_anGpWWB5zdhQfI/edit?usp=sharing)
@@ -88,7 +88,7 @@ This dataset contains records for NBA games from 1946-2015. It includes a lot of
 ## NFL Players Data
 This dataset contains information about current NFL players.
 
-![](images/nfl.png)
+![](Images/nfl.png)
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1_2gxbeokq0TPxm3UI6eL1lvZ03CL7pHmW4ZxNQ226xc/edit?usp=sharing)
@@ -110,7 +110,7 @@ This dataset contains information about current NFL players.
 ## Titanic Passenger Data
 This dataset contains information about passengers on the Titanic.
 
-![](images/titanic.jpg)
+![](Images/titanic.jpg)
 
 ### Resources
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1TcYozHHXhVE1esummV95vAYXKxkXbsoQLyf31TUBlO0/edit?usp=sharing)
