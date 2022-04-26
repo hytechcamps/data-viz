@@ -18,6 +18,6 @@ Follow [these instructions](SelfPacedWork.md) to learn more about what is possib
 ## Additional Explorations
 - Take a look at some [more cool visualizations](https://visme.co/blog/best-data-visualizations-2019/)
 - Read through some of the top posts of all time on the [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/top/?t=all) subreddit
+- Play with [an interactive global data visualizer tool](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) and see what cool patterns you can find
 - Learn more about [Python and `pandas`](https://realpython.com/pandas-python-explore-dataset/) by exploring an NBA dataset
     - >Note: You can skip the "Setting Up Your Environment" and move right to the [Using the Pandas Python Library](https://realpython.com/pandas-python-explore-dataset/#using-the-pandas-python-library) part. You can run the code in a [new Colab notebook](https://colab.research.google.com/#create=true).
-- Play with [an interactive global data visualizer tool](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) and see what cool patterns you can find
