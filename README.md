@@ -13,7 +13,7 @@ Present the [PowerPoint Presentation](DataVisualization.pptx). There are copious
 Facilitate the [Blooket quiz](https://dashboard.blooket.com/set/625d949bde94f480c5f84db3). You must create a Blooket account in order to host the game. There are a few different options - not sure which one is the best.
 
 ## Follow-Along - College Data
-Walk through the follow-along activity as a group. It contains two parts: students will start by creating charts in a Google Sheet, then move onto a Google Colab notebook. Students will need a Google account in order to participate. They will have to make a copy of the spreadsheet. For the notebook, they should just be able to go to the link and start editing as long as they have an account.
+Walk through the [follow-along activity](FollowAlong.md) as a group. It contains two parts: students will start by creating charts in a Google Sheet, then move onto a Google Colab notebook. Students will need a Google account in order to participate. They will have to make a copy of the spreadsheet. For the notebook, they should just be able to go to the link and start editing as long as they have an account.
 
 Credentials for any student without a Google account:
 

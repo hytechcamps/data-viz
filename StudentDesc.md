@@ -2,7 +2,7 @@
 Welcome to the Data Visualization Hy-Tech Camp!
 
 ## Icebreaker
-Complete this form to participate in the icebreaker: https://forms.gle/fFeYSmrVp61zgYiu6
+Complete this form to participate in the icebreaker: [https://forms.gle/fFeYSmrVp61zgYiu6](https://forms.gle/fFeYSmrVp61zgYiu6)
 
 After submitting the form, click on the "See previous responses" link to see visualizations for the cumulation of all data!
 
@@ -10,10 +10,10 @@ After submitting the form, click on the "See previous responses" link to see vis
 <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=https://hytechcamps.github.io/data-viz/DataVisualization.pptx' width='100%' height='450px' frameborder='0'></iframe>
 
 ## Follow-Along Activity - College Data
-Complete the [follow-along activity](FollowAlong.md). It uses a college-based dataset to show how to create visualizations in Google Sheets _and_ `ggplot`.
+[Click here to complete the follow-along activity.](FollowAlong.md) It uses a college-based dataset to show how to create visualizations in Google Sheets _and_ `ggplot`.
 
 ## Self-Paced Work - New Datasets
-Follow [these instructions](SelfPacedWork.md) to learn more about what is possible with data and data visualization, and practice your skills.
+[Click here to view self-paced work instructions.](SelfPacedWork.md) You will learn more about what is possible with data and data visualization, and practice your skills.
 
 ## Additional Explorations
 - Take a look at some [more cool visualizations](https://visme.co/blog/best-data-visualizations-2019/)
