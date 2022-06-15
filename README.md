@@ -1,6 +1,9 @@
 # Bringing Data to Life with Visualization
 In this camp, students will discover the importance of data visualization. They will explore an interesting data set and figure out how to translate it into a satisfying visual. The goal is to learn how data can be used to tell stories and express messages in an engaging way.
 
+### Videos
+Videos for the camp are available [here](https://app.sharebase.com/#/folder/1616572/share/3-hdMlsXpWUhpIBnJWtUEavRdfnjA).
+
 ## Icebreaker
 For the ice breaker, have each student fill out [this form](https://forms.gle/fFeYSmrVp61zgYiu6). At the end of the survey, they can click the "See previous responses" link to look at the cumulative data. Visualizations are automatically generated. It should be possible to view the results for the form [here](https://docs.google.com/forms/d/e/1FAIpQLSfgtmEYkNfC3nqGP8EhKnZz7tszR7qG_s3EZKNiuPHK8uByyA/viewanalytics).
 
