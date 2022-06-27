@@ -21,7 +21,7 @@ Walk through the [follow-along activity](FollowAlong.md) as a group. It contains
 Credentials for any student without a Google account:
 
 - Username: **techoutreachstudent@gmail.com**
-- Password: **L3arningIsFun!**
+- Password: **Learn2Code!**
 
 >_Note: Do not make this public - it should only be reserved for students who do not have access to an account._
 
